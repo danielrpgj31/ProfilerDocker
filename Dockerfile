@@ -21,8 +21,6 @@ RUN apt-get install -y git
 ARG jdk_location=you_have_to_specify_jdk_location_via_argument
 ENV jdk_location_bash $jdk_location
 
-ARG profiler_pack_location=you_have_to_specify_full_path_to_zip_file
-
 # Layout of /opt directories
 # /opt
 #  |-- ProfilerCode       - Java based code that will be profiled
@@ -42,7 +40,7 @@ ADD run.sh /opt/run.sh
 RUN git clone https://github.com/mkowsiak/ProfilerCode.git
 
 # copy and unzip profiler pack
-ADD $profiler_pack_location /opt/profiler
+ADD profiler-server-linuxamd64.zip /opt/profiler
 WORKDIR /opt/profiler
 RUN find . -name "*zip" -exec unzip {} \;
 
