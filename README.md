@@ -1,5 +1,5 @@
-[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/mkowsiak/ProfilerDocker/blob/master/LICENSE)
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/mkowsiak/ProfilerDocker/blob/master/LICENSE)
+[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/mkowsiak/ProfilerDocker/blob/master/LICENSE.md)
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/mkowsiak/ProfilerDocker/blob/master/LICENSE.md)
 # NetBeans - Profiler testing Docker image
 
 This Docker based Profiler tester helps you setup remote machine with Java code running and waiting for NetBeans Profiler to attach.
