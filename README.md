@@ -33,7 +33,11 @@ Before you can proceed, you have to create profiler server inside NetBeans. I su
 
 # Running
 
-    > docker run -p 5140:5140 profiler
+    > docker run -i -t -p 5140:5140 profiler
+
+if you can't use your local port `5140` you can always specify different port forwarding
+
+    > docker run -i -t -p $PORT_NO_YOU_WANT:5140 profiler
 
 # Attaching to running, remote, JVM
 
