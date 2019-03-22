@@ -17,6 +17,8 @@ This Docker based Profiler tester helps you setup remote machine with Java code 
 
 Before you can proceed, you have to create profiler server inside NetBeans. I suggest to store it inside `/tmp/profiler-server-linuxamd64.zip`
 
+Open remote profiler settings by choosing: `Profile -> Attach to External Process`
+
 <p align="center">
   <img src="https://github.com/mkowsiak/ProfilerDocker/blob/master/images/profiler_pack.png?raw=true">
 </p>
