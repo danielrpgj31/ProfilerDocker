@@ -55,7 +55,7 @@ At the moment, ProfilerDocker is using only one architecture for remote profilin
 
 # Java code used for profiling
 
-ProfilerDocker is based on very simple Java code that runs infinite loop. The loop spawns 2-4 threads, each sleeps 5-10 seconds and allocates memory in range: [512KB, 512MB].
+ProfilerDocker is based on very simple Java code that runs infinite loop. The loop spawns 2-4 threads, each thread sleeps 5-10 seconds and allocates memory in range: [512KB, 512MB].
 
 You can find source code here: <a href="https://github.com/mkowsiak/ProfilerCode">ProfilerCode</a>.
 
